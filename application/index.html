@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+
+    <script src="lib/p5.js"></script>
+    <script src="lib/p5.dom.js"></script>
+    <script src="lib/p5.sound.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.js"></script> -->
+
+
+    <script src="Utils.js"></script>
+    <script src="MainFunctions.js"></script>
+    <script src="MediaRecorder.js"></script>
+    <script src="sketch.js"></script>
+    <script src="blabla.css"></script>
+ 
+    
+    <!-- <script src="sketchContour.js"></script> -->
+
+
+</head>
+
+<body>
+
+
+
+  <div class="container-fluid">
+    
+    <div class="row">
+        
+      <div id="main-canvas" class="col-12 col-xl-9"></div>
+      <img src="assets/logo.gif" class="logo">
+
+
+          <div id="colInter" class="col-12 col-xl-3">
+              
+              <div id="intBut" class="interface">
+                
+                <button id="button-record" class="butRd"></button>
+                <div id="changeText" class="recText">Record</div>
+              </div>
+
+              <div id="intSli" class="interface">
+                <div class="textSli">Tolérance</div>
+                  <input type="range" class="mt-3 mt-xl-5 slidecontainer slider" id="range-spectre" min="0" max="255" value="100">
+              </div>
+
+            <div id="intImg" class="interface">
+                <div class="textSli">Arrière-plan</div>
+              <select class="mt-3 mt-xl-5 custom-select customFont" id="select-image-back"></select>
+            </div>
+
+            <div id="intFx" class="interface">
+                <div class="textSli">Effets</div>
+              <select class="mt-3 mt-xl-5 custom-select customFont" id="select-option"></select>
+            </div>
+           
+    </div>
+    
+
+  
+
+
+    
+  <div> <button id="button-showhide" class="opac">Show/Hide</button></div>
+<input type="range" class="opac" id="range-density" min="0" max="100" value="0">
+<select class="opac" id="select-image-front"></select>
+
+</div>
+
+</body>
+
+
+</html>

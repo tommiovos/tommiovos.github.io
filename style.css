@@ -1,0 +1,157 @@
+iframe:focus {
+    outline: none;
+  }
+  
+  iframe[seamless] {
+    display: block;
+  }
+
+
+.title1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  letter-spacing: normal;
+  transition: letter-spacing 0.4s ease-in-out, color 0.4s ease-in-out;
+  
+}
+
+.title1:hover {
+  letter-spacing: 12px;
+  color: #9D82F5;
+}
+
+.padCont {
+  margin: 15px;
+}
+
+.cFont {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 30px;
+  padding-right: 50px;
+}
+
+
+
+.btnApp {
+
+    background-color: blue;
+    height: 50px;
+    width: 150px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:50px;
+    transition: background-color 0.4s ease-in-out, font-size 0.4s ease-in-out, width 0.4s ease-in-out, height 0.4s ease-in-out, font-weight 0.4s ease-in-out, border-radius 0.4s ease-in-out;
+    
+
+}
+
+
+.btnApp:hover {
+
+  
+  background-color: rgb(56, 208, 255);
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 900;
+  width: 220px;
+  height: 70px;
+  color: white;
+  border-radius: 25px;
+
+
+}
+
+
+
+
+
+  /* .switch {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 10px;
+    bottom: 10px;
+    background-color: white;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+ 
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(34px);
+    -ms-transform: translateX(34px);
+    transform: translateX(34px);
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 60%;
+  }
+
+
+.card {
+  border: 0px;
+  border-radius: 0px;
+}
+
+
+@media (min-width: 765px) {
+
+  .card {
+    border-right: 4px solid;
+    border-color: #1F2932;
+  }
+  
+}

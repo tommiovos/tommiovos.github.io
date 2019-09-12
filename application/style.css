@@ -1,0 +1,167 @@
+body {
+  background-color: #A4D8FF;
+}
+
+.opac {
+    opacity: 0;
+    width: 0%;
+    height: 0%;
+    pointer-events: none;
+}
+
+
+.logo {
+    width: 12%;
+    min-width: 100px;
+    position: absolute;
+    top: 20px; left: 30px;
+    -webkit-transition: width 1s;
+    transition: width 0.7s;
+}
+
+.logo:hover {
+  width: 14%;
+}
+
+.customFont {
+  font-family: "Muli";
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+
+.interface {
+  padding: 25px;
+}
+
+
+.butRd {
+  background-color: #D6220A;
+  border: none;
+  color: #F4F7F9;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+  font-size: 0;
+}
+
+
+
+
+#intSli {
+  background-color: #2797D4;
+  transition: background-color 0.4s;
+}
+
+#intSli:hover {
+  background-color: #3A4246;
+}
+
+#intBut {
+  background-color: #29B4FF;
+  transition: background-color 0.4s;
+  
+}
+
+#intBut:hover {
+  background-color: #69747B;
+}
+
+#intImg {
+  background-color: #257FB0;
+  transition: background-color 0.4s;
+}
+
+#intImg:hover {
+  background-color: #2D3134; 
+}
+
+#intFx {
+  background-color: #216292;
+  transition: background-color 0.4s;
+}
+
+#intFx:hover {
+  background-color: #111213;
+}
+
+.recText {
+  display:inline;
+  font-family: "Muli";
+  font-weight: 900;
+  font-size: 28px;
+  text-transform: uppercase;
+  position: relative;
+  top: 9px; left: 15px;
+  color: #F4F7F9;
+}
+
+.textSli {
+  display:inline;
+  font-family: "Muli";
+  font-weight: 900;
+  font-size: 25px;
+  color: #F4F7F9;
+
+}
+
+
+@media screen and (min-width:968px) {
+
+  #colInter {
+    padding-right:60px;
+  }
+
+}
+
+
+
+/* @media screen and (max-width:1640px)  {
+
+  #colInter { 
+  flex: 0 0 100%;
+  max-width: 100%;
+  }
+
+} */
+
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;  
+    background: #70CDFF;
+    outline: none;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #DCF0FF;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+
