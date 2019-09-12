@@ -15,6 +15,15 @@ iframe:focus {
   
 }
 
+
+.title2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  letter-spacing: normal;
+  transition: letter-spacing 0.4s ease-in-out, color 0.4s ease-in-out;
+  
+}
+
 .title1:hover {
   letter-spacing: 12px;
   color: #9D82F5;
@@ -42,12 +51,11 @@ iframe:focus {
     width: 150px;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 13px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
     border-radius:50px;
     transition: background-color 0.4s ease-in-out, font-size 0.4s ease-in-out, width 0.4s ease-in-out, height 0.4s ease-in-out, font-weight 0.4s ease-in-out, border-radius 0.4s ease-in-out;
@@ -147,7 +155,7 @@ iframe:focus {
 }
 
 
-@media (min-width: 765px) {
+@media (min-width: 768px) {
 
   .card {
     border-right: 4px solid;
@@ -155,3 +163,46 @@ iframe:focus {
   }
   
 }
+
+#card2 {    
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0px;
+  border-radius: 0px;
+}
+
+
+@media (min-width: 992px) {
+
+  #card2 {
+    border-right: 4px solid;
+    border-color: #1F2932;
+  }
+  
+}
+
+/* @media (max-width:767px) {
+    .btnApp {
+      margin:auto;
+    }
+} */
+
+.highlight {
+  background-color: rgba(157, 130, 245, 0);
+  font-weight: 100;
+  transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out, font-weight 0.4s ease-in;
+}
+
+.highlighted {
+  color: white;
+  background-color: rgba(157, 130, 245, 100);
+  font-weight: bold;
+}
+

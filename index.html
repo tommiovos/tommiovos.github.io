@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Le 19 34</title>
   
-  <script src="script.js"></script>
+  
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Lato|Poppins:900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
 
@@ -28,11 +29,12 @@
 
     <div class="row">
 
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-xl-4" id="card1">
             <div class="card">
                 <div class="card-body">
-                  <p class="card-title title1 htext">Le Projet</p>
-                  <p class="card-text cFont">Le 19 3/4 est un projet réalisé par la promo 2019 du Passe numérique, dont je fais partie. Le résultat est une application sur le thème de la magie et du monde d'Harry Potter permettant de se mettre en scène devant divers décors. L'application à été réalisée à l'aide de <a href="https://p5js.org/">p5.js</a>, une libraire très avancée dont nous avons utilisé certaines fonctions et que nous avons apprit à utiliser. Chaque élève du passe à réalisé un design personnalisé et un site pour l'application. Vous pouvez ci-dessous découvrir le mien !</p>
+                  <p class="card-title title1 htext highlighter">Le Projet</p>
+
+                  <p class="card-text cFont">Le <span class="highlight">19 3/4</span> est un projet réalisé par la promo 2019 du Passe numérique, dont je fais partie. Le résultat est une application sur le thème de la magie et du monde d'Harry Potter permettant de se mettre en scène devant divers décors. L'application à été réalisée à l'aide de <a href="https://p5js.org/">p5.js</a>, une libraire très avancée dont nous avons utilisé certaines fonctions et que nous avons apprit à utiliser. Chaque élève du passe à réalisé un design personnalisé et un site pour l'application. Vous pouvez ci-dessous découvrir le mien !</p>
                 
                 </div>
               </div>
@@ -40,19 +42,27 @@
 
         </div>
 
-        <div class="col-12 col-md-6 col-lg-4"> cc2
+        <div class="col-12 col-md-6 col-xl-4">
+            <div id="card2">
+                <div class="card-body">
+                  <p class="card-title title2 htext">Qui suis-je ?</p>
+
+                  <p class="card-text cFont"></p>
+                
+                </div>
 
 
         </div>
+      </div>
 
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center justify-content-md-start">
 
             <a href="#" class="btnApp">Tester l'app</a>
 
 
         </div>
 
-    </div>
+    
 
   
 
@@ -61,6 +71,9 @@
 
 
 </body>
+
+<script src="script.js"></script>
+
 </html>
 
 
@@ -68,30 +81,3 @@
 
 
 
-<script>
-    var test = document.getElementById("title1");
-    
-    
-    // ce gestionnaire sera exécuté une seule fois lorsque le curseur passera au dessus de la liste non ordonnée
-    test.addEventListener("mouseenter", function( event ) {   
-      // met en surbrillance la cible de mouseenter
-      event.target.style.color = "purple";
-  
-      // réinitialise la couleur après un court moment
-      setTimeout(function() {
-        event.target.style.color = "";
-      }, 500);
-    }, false);
-    
-    
-    // ce gestionnaire sera exécuté à chaque fois que le curseur passe au dessus de chaque élément de la liste
-    test.addEventListener("mouseover", function( event ) {   
-      // met en surbrillance la cible de mouseover
-      event.target.style.color = "orange";
-  
-      // réinitialise la couleur après un court moment
-      setTimeout(function() {
-        event.target.style.color = "";
-      }, 500);
-    }, false);
-  </script>
