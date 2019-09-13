@@ -221,7 +221,8 @@ iframe:focus {
 }
 
 
-@media (max-width: 867px){ 
+
+@media (min-width: 100px) and (max-width: 900px) { 
   .col-mdlg {
       -ms-flex: 0 0 100%;
       flex: 0 0 100%;
@@ -230,20 +231,21 @@ iframe:focus {
   }
 
 
-@media (min-width: 868px){ 
-.col-mdlg {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
+@media (min-width: 1000px) and (max-width: 1300px) { 
+  .col-mdlg {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
   }
-}
 
 
-@media (min-width: 1200px) { 
-.col-mdlg {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+@media (min-width: 1300px) { 
+  .col-mdlg {
+       -ms-flex: 0 0 33.333333%;
+       flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+    }
   }
-}
-
+  
+    
