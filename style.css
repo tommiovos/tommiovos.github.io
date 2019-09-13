@@ -15,6 +15,11 @@ iframe:focus {
   
 }
 
+.title1:hover {
+  letter-spacing: 12px;
+  color: #9D82F5;
+}
+
 
 .title2 {
   font-family: 'Poppins', sans-serif;
@@ -24,10 +29,12 @@ iframe:focus {
   
 }
 
-.title1:hover {
-  letter-spacing: 12px;
-  color: #9D82F5;
+.title2:hover {
+  letter-spacing: 10px;
+  /* color: #E96342; */
+  color: #31EFDB;
 }
+
 
 .padCont {
   margin: 15px;
