@@ -46,7 +46,6 @@ iframe:focus {
   font-size: 18px;
   text-align: justify;
   line-height: 30px;
-  padding-right: 50px;
 }
 
 
@@ -161,8 +160,12 @@ iframe:focus {
   border-radius: 0px;
 }
 
+.card-body {
+  padding-right: 50px;
+}
 
-@media (min-width: 768px) {
+
+@media (min-width: 801px) {
 
   .card {
     border-right: 4px solid;
@@ -186,7 +189,7 @@ iframe:focus {
 }
 
 
-@media (min-width: 992px) {
+@media (min-width: 1201px) {
 
   #card2 {
     border-right: 4px solid;
@@ -222,16 +225,21 @@ iframe:focus {
 
 
 
-@media (min-width: 100px) and (max-width: 900px) { 
+@media (min-width: 1px) and (max-width: 799px) { 
   .col-mdlg {
       -ms-flex: 0 0 100%;
       flex: 0 0 100%;
       max-width: 100%;
+      text-align: center;
+    }
+    .card-body {
+      padding-right: 20px;
+      padding-left:10px;
     }
   }
 
 
-@media (min-width: 1000px) and (max-width: 1300px) { 
+@media (min-width: 800px) and (max-width: 1200px) { 
   .col-mdlg {
       -ms-flex: 0 0 50%;
       flex: 0 0 50%;
