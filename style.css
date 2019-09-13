@@ -238,6 +238,12 @@ iframe:focus {
     padding-left: 15px;
 }
 
+.achiText {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  position: relative;
+  top : 1.3em;
+}
 
 
 @media (min-width: 1px) and (max-width: 799px) { 
@@ -263,7 +269,7 @@ iframe:focus {
       max-width: 50%;
     }
     .achiText {
-      top : 1.7em;
+      font-size : 2.7em;
     }
   }
 
@@ -275,17 +281,11 @@ iframe:focus {
       max-width: 33.333333%;
     }
     .achiText {
-      top : 50em;
+      font-size : 4em;
+      top: 0.05em;
     }
   }
   
-
-  .achiText {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-    position: relative;
-    top : 1.3em;
-  }
 
 
   .hiding {
